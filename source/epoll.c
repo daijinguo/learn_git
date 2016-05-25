@@ -1,6 +1,7 @@
 #include "epoll.h"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 void epoll_poll(int id){
 	
 =======
@@ -14,4 +15,11 @@ void epoll_close( int epoll_id ) {
 	
 	// close the  epoll
 >>>>>>> epoll1
+=======
+void epoll_wait( int epoll_id) {
+	if( epoll_id <= 0 )
+		return;
+	
+	// implement the wait
+>>>>>>> epoll2
 }
