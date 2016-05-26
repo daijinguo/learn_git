@@ -15,3 +15,10 @@ int func_open() {
 	return iCode;
 }
 
+void func_wait( int code ){
+	if( code <= 0 )
+		return;
+	
+	// function implement
+}
+

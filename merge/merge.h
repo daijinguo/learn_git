@@ -5,4 +5,6 @@ void func_close(int code);
 
 int func_open();
 
+void func_wait( int code );
+
 #endif
