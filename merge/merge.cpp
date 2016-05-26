@@ -8,3 +8,10 @@ void func_close(int code){
 	
 	close( code );
 }
+
+int func_open() {
+	int iCode = 0;
+	// ....
+	return iCode;
+}
+

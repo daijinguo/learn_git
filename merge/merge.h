@@ -3,4 +3,6 @@
 
 void func_close(int code);
 
+int func_open();
+
 #endif
