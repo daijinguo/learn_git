@@ -3,4 +3,6 @@
 
 void func_close(int code);
 
+void func_wait( int code );
+
 #endif
