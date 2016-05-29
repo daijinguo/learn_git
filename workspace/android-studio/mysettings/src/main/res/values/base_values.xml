@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- base color define -->
+    <color name="base_background">#a9f19b9b</color>
+    <color name="txt_status_label">#ec7b351b</color>
+
+
+    <!-- base dimen define -->
+    <dimen name="txt_status_label">18sp</dimen>
+
+
+    <!-- { all language use, so this exit at directory of values only -->
+    <color name="txt_status_value">#0a0a8f</color>
+    <dimen name="txt_status_value">16sp</dimen>
+
+    <color name="txt_value_label">#ed064c6b</color>
+    <dimen name="txt_value_label">16sp</dimen>
+    <!-- } all language use, so this exit at directory of values only -->
+
+
+</resources>

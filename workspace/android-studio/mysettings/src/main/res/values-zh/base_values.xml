@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- base color define -->
+    <color name="base_background">#d859fce6</color>
+    <color name="txt_status_label">#ec2f9106</color>
+
+
+    <!-- base dimen define -->
+    <dimen name="txt_status_label">20sp</dimen>
+
+
+</resources>

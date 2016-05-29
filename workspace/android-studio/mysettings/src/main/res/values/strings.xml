@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MySettings</string>
+    <string name="status_info">Phone status information:</string>
+    <string name="unknown">unknown</string>
+    <string name="device_provision" translatable="false">device provision:</string>
+    <string name="setup_complete" translatable="false">setup complete:</string>
+    <string name="turn_on">On</string>
+    <string name="turn_off">Off</string>
+</resources>
