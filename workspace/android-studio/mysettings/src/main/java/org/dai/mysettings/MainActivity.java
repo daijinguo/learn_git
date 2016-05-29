@@ -28,6 +28,8 @@ public class MainActivity extends Activity implements CompoundButton.OnCheckedCh
     }
 
     private int getUserSetupComplete() {
+		// Some like that
+		//return Settings.Global.getInt(getContentResolver(), Settings.Global.DEVICE_PROVISIONED, 0);
         return 1;
     }
 
