@@ -32,7 +32,7 @@ public class MainActivity extends Activity implements CompoundButton.OnCheckedCh
     }
 
     private void setDeviceProvisioned(int value) {
-
+		Settings.Global.putInt(getContentResolver(), Settings.Global.DEVICE_PROVISIONED, value);
     }
 
     private void setUserSetupComplete(int value) {
