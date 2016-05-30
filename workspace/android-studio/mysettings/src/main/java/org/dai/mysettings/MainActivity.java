@@ -28,9 +28,7 @@ public class MainActivity extends Activity implements CompoundButton.OnCheckedCh
     }
 
     private int getUserSetupComplete() {
-		// Some like that
-		//return Settings.Global.getInt(getContentResolver(), Settings.Global.DEVICE_PROVISIONED, 0);
-        return 1;
+		return Settings.Secure.getInt( getContentResolver(), Settings.Secure.USER_SETUP_COMPLETE, 0);
     }
 
     private void setDeviceProvisioned(int value) {
@@ -38,7 +36,7 @@ public class MainActivity extends Activity implements CompoundButton.OnCheckedCh
     }
 
     private void setUserSetupComplete(int value) {
-
+		Settings.Secure.putInt( getContentResolver(), Settings.Secure.USER_SETUP_COMPLETE, value);
     }
 
     private void initView() {
@@ -102,6 +100,5 @@ public class MainActivity extends Activity implements CompoundButton.OnCheckedCh
         }
 
         updateStatus();
-
     }
 }
